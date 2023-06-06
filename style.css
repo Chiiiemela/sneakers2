@@ -1,0 +1,281 @@
+*{
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    width: 100%;
+    background-color: red
+    height: 50px;
+    margin: auto;
+}
+
+.cross-bars{
+    font-size: 1.10em;
+    margin: 12px;
+}
+
+.sneakerss{
+    width: auto;
+    height: 1.2em;
+}
+
+.head{
+    width: auto;
+    height: 1.2em;
+    float: right;
+    z-index: 0;
+    margin: 0.5rem;
+}
+
+.cart{
+    font-size: 1.15em;
+    float: right;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+
+}
+
+
+.shoe1{
+    max-width: 100%;
+    height: auto;}
+
+.write-1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: small;
+    color: hsl(26, 100%, 55%);
+    padding-left: 0.5em;
+}
+
+.write-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.write-3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    color: #676767;
+}
+
+.sub1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    padding-left: 2%;
+}
+
+.sub2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 3px;
+    margin-left: 0.8em;
+    font-size: small;
+    color: hsl(26, 100%, 55%);
+    background-color: hsl(25, 100%, 94% );
+    border-radius: 3px;
+}
+
+.dash{
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    font-weight: bold;
+    font-size: small;
+    color: #676767;
+    text-decoration-line: line-through;
+    text-decoration-style:solid;
+
+   
+}
+
+.math{
+    width: 94%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    color: hsl(26, 100%, 55%);
+    text-align: center;
+    background-color: hsl(223, 64%, 97%);
+    border-radius: 3px;
+    padding: 4px;
+    margin-left: 0.6em;
+    margin-right: 0.6em;
+}
+.zero{
+    color: black;
+}
+
+.minus{
+    float: left;
+}
+
+.add{
+    float: right;
+}
+
+.cart2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: hsl(26, 100%, 55%);
+    border-radius: 6px;
+    padding: 9px;
+    font-size: small;
+    font-weight: bold;
+    margin-right: 1em;
+    margin-left: 1em;
+    color: #fff;
+}
+
+.shoee{
+    width: 15.5em;
+    height: auto;
+}
+
+@media screen and (min-width:750px) {
+    
+    .container{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .head{
+        height: auto;
+        width: 1.9em;
+    }
+
+    .cart{
+        margin-top: 0.9em;
+        width: auto;
+        height: 0.5em;
+    }
+
+    .writings{
+        width: 19rem;
+        height: auto;
+        margin-bottom: -3em;
+    }
+
+    .dash{
+        margin-top: 0.3em;
+        margin-right: 18em;
+        margin-bottom: -1em;
+        
+    }
+
+    .shoe1{
+        display: none;
+    }
+
+
+    .cross-bars{
+        visibility: hidden;
+    }
+
+    .shoee{
+        border-radius: 8px;
+        margin-right: 4.4em;
+        margin-top: 4em;
+    }
+
+    .math{
+        display: inline-block;
+        width: 6em;
+        margin-top: 1.5em;
+        margin-right: 0%;
+        margin-left: 0%;
+        margin-bottom: -2em;
+        padding: 6px;
+    }
+
+
+    .cart2{
+        display: none;
+    }
+
+    .cart3{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    background-color: hsl(26, 100%, 55%);
+    padding: 10px 30px 10px 30px;
+    font-weight: bold;
+    font-size: smaller;
+    border-radius: 5px;
+    color: #fff;
+    }
+
+    .words{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: smaller;
+        color: #676767;
+        margin-left: 1.5em;
+    }
+
+    .nav-bar{
+        
+    width: 80%;
+    border-bottom: 1px solid  hsl(223, 64%, 94%);
+    height: 4em;
+    }
+
+    .shoe-2{
+        width: 3em;
+        height: auto;
+        border: 2px solid hsl(26, 100%, 55%);
+        border-radius: 4px;
+        margin-top: 1em;
+        margin-right: 1em;
+        opacity: 0.5;
+    }
+
+
+    .shoe-3:hover, .shoe-5:hover, .shoe-7:hover{
+        opacity: 0.5;
+        border: 2px solid hsl(26, 100%, 55%);
+    }
+
+    .shoe-3{
+        width: 3em;
+        height: auto;
+        border-radius: 4px;
+        margin-right: 1em;
+    }
+
+    .shoe-5{
+    width: 3em;
+    height: auto;
+    border-radius: 4px;
+    margin-right: 1em;
+
+    }
+
+    .shoe-7{
+    width: 3em;
+    height: auto;
+    border-radius: 4px;
+
+    }
+
+
+}
+@media screen and (max-width:749px) {
+
+    .shoee{
+        display: none;
+    }
+
+    .cart3{
+        display: none;
+    }
+
+    .words{
+        display: none;
+    }
+
+    .small-shoes{
+        display: none;
+    }
+}
